@@ -4,6 +4,7 @@ tags:
   - grammar
   - syntax
 ---
+
 ```ebnf
 EXPR =
 	(* left 0 *)
@@ -26,7 +27,7 @@ EXPR =
 	(* left 4 *)
 	| EXPR ("+" | "-") EXPR
 	(* left 5 *)
-	
+
 
 ATOM = LITERAL
 	 | IDENTIFIER

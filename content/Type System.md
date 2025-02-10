@@ -1,6 +1,7 @@
 ---
 title: Type System
 ---
+
 ```rust
 typedef void* Thread<'fn, 'args>;
 ```

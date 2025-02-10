@@ -2,8 +2,11 @@
 title: Hello World
 order: 0
 ---
+
 ## The Main Function
+
 Like in C, Osta uses the `main` functions as the entry point for the program. The common syntax is already known to all C devs.
+
 ```osta
 i32 main(usize argc, u8** argv) {
 	/*
@@ -14,7 +17,9 @@ i32 main(usize argc, u8** argv) {
 	*/
 }
 ```
+
 Even if this is perfectly valid **osta** code, we prefer to use other more refined signatures. Let's look alternatives.
+
 ```osta
 i32 main(str[]& args) {
 	/*
@@ -24,4 +29,5 @@ i32 main(str[]& args) {
 	*/
 }
 ```
+
 We will discuss `str` and his alternatives later on [[Strings]].
