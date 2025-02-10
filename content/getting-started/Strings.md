@@ -43,7 +43,8 @@ typedef str u8[];
 str& i_love_osta = "I ❤️ Osta!";
 ```
 
-> [!info] >`"I ❤️ Osta!"` is a string literal with type `u8[9:0]`. We hate implicit casts, but here we have one: since `str` is `u8[]`, the `u8[9:0]` can be **upcasted** implicitly into `u8[:0]`, which is a refinement type of `u8[]`.
+> [!info]  
+> `"I ❤️ Osta!"` is a string literal with type `u8[9:0]`. We hate implicit casts, but here we have one: since `str` is `u8[]`, the `u8[9:0]` can be **upcasted** implicitly into `u8[:0]`, which is a refinement type of `u8[]`.
 
 > [!tip]
 > The **Sentinel Termination** is dropped by the compiler during the implicit upcasts when using `str` because it's not needed since we know the length.
