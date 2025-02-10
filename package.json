@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "@osta-lang/spec",
+  "description": "The specification of the Osta programming language",
   "private": true,
-  "version": "4.4.0",
+  "version": "0.1.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "JohanVonElectrum <johanvonelectrum@gmail.com>",
   "license": "MIT",
   "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/osta-lang/spec.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -86,7 +86,7 @@
     "satori": "^0.12.1",
     "serve-handler": "^6.1.6",
     "sharp": "^0.33.5",
-    "shiki": "^2.3.2",
+    "shiki": "^1.26.2",
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
