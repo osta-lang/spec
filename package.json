@@ -2,7 +2,7 @@
   "name": "@osta-lang/spec",
   "description": "The specification of the Osta programming language",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "author": "JohanVonElectrum <johanvonelectrum@gmail.com>",
   "license": "MIT",
